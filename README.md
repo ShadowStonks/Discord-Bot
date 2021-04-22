@@ -16,7 +16,7 @@ Python 3, TKInter and pyautogui.
 
 ### Installing Prerequisites
 
-How to install these prerequisites (make sure to preinstall python 3 from [here](https://www.python.org/downloads/):)
+How to install these prerequisites, make sure to preinstall python 3 from [here](https://www.python.org/downloads/)
 
 ```
 pip install tkinter
