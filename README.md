@@ -4,7 +4,7 @@ A program which automates the Dank Memer bot on Discord.
 
 ## Information
 
-This program is written in 100% python and has taken a while to perfect in the way I wanted it, you can find the prebuilt version [here](https://linkHERE):
+This program is written in 100% python and has taken a while to perfect in the way I wanted it, you can find the prebuilt versions [here](https://github.com/ShadowStonks/Discord-Bot/tree/main/pre-compiled):
 
 ### Prerequisites
 
