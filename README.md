@@ -11,7 +11,7 @@ This program is written in 100% python and has taken a while to perfect in the w
 These are the things you need to run this script:
 
 ```
-Python 3, TKInter and pyautogui.
+Python 3, TKInter, pynput and pyautogui.
 ```
 
 ### Installing Prerequisites
@@ -20,6 +20,10 @@ How to install these prerequisites, make sure to preinstall python 3 from [here]
 
 ```
 pip install tkinter
+```
+
+```
+pip install pynput
 ```
 
 ```
