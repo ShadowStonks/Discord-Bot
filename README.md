@@ -27,4 +27,4 @@ pip install pyautogui
 ```
 ### Compiling
 
-Simply download the python file from the [Releases](https://linkheresoon) and run it using Python Launcher and you're done!
+Simply download the python file from the [Releases](https://github.com/ShadowStonks/Discord-Bot/releases/) and run it using Python Launcher and you're done!
