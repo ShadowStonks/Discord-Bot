@@ -2,7 +2,6 @@ import tkinter as tk
 from pynput.keyboard import Controller
 import time
 import pyautogui
-from tkmacosx import *
 
 
 def beg():
@@ -158,7 +157,7 @@ Label1.pack()
 Label2 = tk.Label(root, text='Please force quit the application when\n you want to stop the bot.')
 Label2.pack()
 
-Button1 = Button(root, text='Close', command=root.destroy, borderless=True)
+Button1 = tk.Button(root, text='Close', command=root.destroy)
 Button1.pack()
 
 center(root)
@@ -186,10 +185,10 @@ EntryBox.pack()
 StartLabel = tk.Label(master, text="Press Start below for the bot to start.")
 StartLabel.pack()
 
-begger = Button(master, text="Start", borderwidth="0", command=begWithTimer, borderless=True)
+begger = tk.Button(master, text="Start", command=begWithTimer)
 begger.pack()
 
-themeButton = Button(text='Swap \nTheme', command=themeChange, borderless=True)
+themeButton = tk.Button(text='Swap \nTheme', command=themeChange)
 themeButton.pack()
 
 center(master)
