@@ -32,3 +32,5 @@ pip install pyautogui
 ### Compiling
 
 Simply download the python file from the [Releases](https://github.com/ShadowStonks/Discord-Bot/releases/) and run it using Python Launcher and you're done!
+
+Make sure to create a file called 'LaunchType.txt' with either 'Light' or 'Dark' written in the first line of the file.

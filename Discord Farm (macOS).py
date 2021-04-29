@@ -168,7 +168,7 @@ root.mainloop()
 
 master = tk.Tk()
 
-master.title("Discord Begger v2")
+master.title("Discord Begger v2.1")
 master.geometry("325x215")
 
 ammount = tk.Label(master, text="Ammount of begs and deps")
