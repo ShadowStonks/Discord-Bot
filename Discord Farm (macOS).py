@@ -10,7 +10,23 @@ def beg():
         keyboard = Controller()
         keyboard.press(char)
         keyboard.release(char)
-        time.sleep(0.1)
+        time.sleep(0.01)
+
+
+def hunt():
+    for char in "pls hunt":
+        keyboard = Controller()
+        keyboard.press(char)
+        keyboard.release(char)
+        time.sleep(0.01)
+
+
+def fish():
+    for char in "pls fish":
+        keyboard = Controller()
+        keyboard.press(char)
+        keyboard.release(char)
+        time.sleep(0.01)
 
 
 def dep():
@@ -18,15 +34,21 @@ def dep():
         keyboard = Controller()
         keyboard.press(char)
         keyboard.release(char)
-        time.sleep(0.1)
+        time.sleep(0.01)
 
 
 def begRepeatFunc():
     beg()
     pyautogui.press('enter')
-    time.sleep(5)
+    time.sleep(2)
     dep()
     pyautogui.press('enter')
+    hunt()
+    pyautogui.press('enter')
+    time.sleep(2)
+    fish()
+    pyautogui.press('enter')
+    time.sleep(2)
     time.sleep(45)
 
 
@@ -168,16 +190,16 @@ root.mainloop()
 
 master = tk.Tk()
 
-master.title("Discord Begger v2.1")
+master.title("Dank Farmer v3")
 master.geometry("325x215")
 
-ammount = tk.Label(master, text="Ammount of begs and deps")
+ammount = tk.Label(master, text="Enter ammount of farms:")
 ammount.pack()
 
 EntryBoxTwo = tk.Entry(master, highlightthickness=0)
 EntryBoxTwo.pack()
 
-topLabel = tk.Label(master, text="Enter time between each period \nof bot spams. (minutes)")
+topLabel = tk.Label(master, text="Enter time between each period \nof bot spams. (minutes):")
 topLabel.pack()
 
 EntryBox = tk.Entry(master, highlightthickness=0)
