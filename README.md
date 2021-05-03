@@ -18,16 +18,18 @@ Python 3, TKInter, pynput and pyautogui.
 
 How to install these prerequisites, make sure to preinstall python 3 from [here](https://www.python.org/downloads/)
 
+Open a terminal and enter these commands:
+
 ```
-pip install tkinter
+pip3 install tkinter
 ```
 
 ```
-pip install pynput
+pip3 install pynput
 ```
 
 ```
-pip install pyautogui
+pip3 install pyautogui
 ```
 ### Compiling
 
